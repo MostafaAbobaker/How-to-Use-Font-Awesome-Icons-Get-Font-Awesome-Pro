@@ -1,0 +1,117 @@
+body {
+  background-color: #CFC9CC;
+  font-family: sans-serif;
+  color: #363940;
+}
+* {
+  box-sizing: border-box;;
+}
+.icon {
+ /*  padding: 20px 0; */
+}
+.text-center {
+  text-align: center;
+}
+.icon .container {
+  width: 1200px;
+  margin: auto;
+}
+.icon .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+.icon .row .col-4 {
+  width: calc(100% / 3);
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 40px;
+  
+}
+h1 ~ p {
+  width: 700px;
+  margin: auto;
+  font-size: 18px;
+  font-weight: 600;
+  direction: rtl;
+}
+h1 ~ p .fa-star ,h1 ~ p .fa-star-half-alt {
+  color: goldenrod;
+  margin-top: 5px;
+}
+h4 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px;
+}
+h1 .fa-stack{
+  
+  color: #339af0;
+  position: relative;
+  top: 25px;
+  top: 12px;
+  font-size: 25px;
+}
+.box p {
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 1.1px;
+  padding: 10px;
+}
+.fa-calendar-alt {
+  --fa-primary-color: #1565c0;
+  --fa-secondary-color: #339af0;
+  --fa-secondary-opacity: 1;
+}
+.fa-camera-retro {
+  --fa-primary-color: orange;
+  --fa-secondary-color: orangered;
+  --fa-secondary-opacity: 1;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+li {
+  line-height: 1.5;
+  letter-spacing: 1.1px;
+  padding: 5px 0;
+  background-color: #f1f1f1;
+  border: 1px solid #999;
+  margin: 1px 0;
+}
+li span {
+  border-right: 1px solid #999;
+  display: inline-block;
+  padding: 5px;
+} 
+
+.search {
+  position: absolute;
+  right: 10px;
+  display: flex;
+}
+.search-box{
+  position: relative;
+}
+.search-box input {
+  width: 300px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  height: 30px;
+  padding: 5px 10px;
+}
+
+.search-box::before {
+  font-family: "Font Awesome 5 free"; 
+  font-weight: 900;
+  content: "\f002";
+  position: absolute;
+  right: 10px;
+  top: 7px;
+  
+} 
